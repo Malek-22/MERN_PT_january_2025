@@ -1,0 +1,14 @@
+{
+  "name": "isodateformatter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "chalk": "^5.0.1" 
+  }
+}
