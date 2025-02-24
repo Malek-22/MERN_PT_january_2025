@@ -1,0 +1,74 @@
+/* General Layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #dddddd;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  background-color: #6aa84f;
+  padding: 50px;
+  justify-content: space-around;
+  gap: 10px;
+  font-size: 30px;
+  
+}
+
+/* Content Area */
+.content {
+  display: flex;
+  flex: 1;
+  height: calc(100vh - 80px);
+  gap: 10px;
+  padding: 10px;
+}
+
+/* Navigation */
+.navigation {
+  background-color: #6fa8dc;
+  width: 25%;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Main Content */
+.main-content {
+  background-color: #e06666;
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Subcontent */
+.subcontent-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.subcontent {
+  background-color: #ffd966;
+  flex: 1;
+  justify-content: space-between;
+  padding: 40px;
+  height: 200px;
+}
+
+/* Advertisement */
+.advertisement {
+  background-color: #b4a7d6;
+  padding: 30px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: bold;
+}
