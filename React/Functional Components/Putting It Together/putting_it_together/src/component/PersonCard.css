@@ -1,0 +1,27 @@
+.person-card {
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.person-card h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.person-card p {
+    margin: 5px 0;
+}
+
+.person-card button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.person-card button:hover {
+    background-color: #4499f4;
+}
